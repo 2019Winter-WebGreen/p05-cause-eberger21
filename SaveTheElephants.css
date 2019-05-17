@@ -1,0 +1,151 @@
+/*
+* Erin Berger
+* May 17, 2019 
+* Save the Elephants 
+*/
+
+/* The universal selector */
+
+* . {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* this is the color and font for the body  */
+
+body {
+  background-color: cornsilk; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+
+
+/* this is the color and lines to separate the header footer and main  */
+header {
+    background-color: burlywood; 
+    border-bottom: 5px solid black; 
+}
+
+
+main {
+    background-color: cornsilk; 
+    border-bottom: 5px solid black; 
+}
+
+
+footer {
+    background-color: burlywood; 
+}
+
+
+
+
+/* this is the margin, padding, font, and size of the first header  */
+h1{
+    margin: 20px 10px 20px 10px;
+    padding: 20px 20px 20px 20px; 
+    height: auto;
+    width: auto;
+    font-size: 300%; 
+    text-align: center;
+    font-family: fantasy;
+}
+
+
+    
+/* this is the margin, padding, font, and size of all the second headers   */
+h2 {
+    font-family: fantasy;
+}
+
+
+
+/* this is for the paragraphs and their margins and paddings so the paragraph aren't to close to each other or pictures   */
+p {
+    margin: 10px 10px 30px 10px;
+    padding: 0px 20px 20px 20px; 
+    height: auto;
+    width: auto;
+}
+
+
+
+
+/* this is the first picture that is floated left and has a border. Also padding and margins so it isnt too close to any of the words */
+#one {
+    float: left;
+    margin: 20px 20px 20px 20px;
+    padding: 0px 0px 0px 0px; 
+    height: auto;
+    width: auto;
+    border: dashed black; 
+}
+
+
+
+/* these pictures are all horizontally in a line with the same sizes  */
+#two {
+    width: 200px;
+    height: 175px;
+    margin: 5px 5px 5px 5px;
+    border: 3px solid darkgreen;
+}
+
+#babies {
+    width: 200px;
+    height: 175px;
+    margin: 5px 5px 5px 5px;
+    border: 3px solid darkgreen;
+}
+
+#herd {
+    width: 200px;
+    height: 175px;
+    margin: 5px 5px 5px 5px;
+    border: 3px solid darkgreen;
+}
+
+#tree {
+    width: 200px;
+    height: 175px;
+    margin: 5px 5px 5px 5px;
+    border: 3px solid darkgreen;
+}
+
+#happy {
+    width: 200px;
+    height: 175px;
+    margin: 5px 5px 5px 5px;
+    border: 3px solid darkgreen;
+}
+
+
+
+/* this picture is floated to the right of the the title and paragraph with an outline that is separated from the picture by padding. the margins are also a littl ebis so that there is space between the picture and the paragraph  */
+#map {
+    float: right;
+    width: 300px;
+    height: 350px;
+    margin: 20px 20px 20px 30px;
+    padding: 10px 10px 10px 10px; 
+    background-color: cornsilk;
+    border: 2px solid yellow;  
+}
+
+
+
+/* these are for the links so that they display diffrently than the default and that they chang colors after they're visited. And  */
+a:link {
+    color: dimgray;
+    text-decoration: underline; }
+
+a:visited {
+	color: darkslategray;
+	text-decoration: underline; }
+
+
+a:hover , a:focus {
+	color: darkgreen; 
+	font-size: 20px; } 
